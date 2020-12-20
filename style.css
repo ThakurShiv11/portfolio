@@ -1,0 +1,226 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,800&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+ --primary-color: #6fb58f;
+ --gray-color:black;
+ --off-white: #DDD6FE;
+ --white: #c4c1cf;
+
+}
+
+body {
+ color:black;
+ font-family: 'Merriweather Sans', sans-serif;
+ margin: 0px;
+}
+
+.margin-md {
+ margin: 2rem;
+}
+
+hr {
+ margin: 2rem 0rem;
+}
+
+/**container**/
+.container-fluid {
+ padding-left: 1rem;
+ padding-right: 1rem;
+
+}
+
+.container-center {
+ max-width: 600px;
+ margin: auto;
+}
+
+/*links*/
+.link {
+ text-decoration: none;
+ padding: 0.5rem 1rem;
+ /*T R B L*/
+}
+
+.link-primary {
+ color: black;
+ background-color: var(--primary-color);
+ border-radius: 0.5rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+.link-secondary {
+ color: var(--primary-color);
+ border-radius: 0.5rem;
+ border: 1px solid var(--primary-color);
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+.non-btn {
+ list-style: none;
+}
+
+.inline-item {
+ display: inline;
+ padding: 0rem 0.5rem;
+}
+
+/*navigation*/
+.nav {
+ background-color: var(--primary-color);
+ color: black;
+ padding: 1rem;
+ border-bottom-left-radius: 1rem;
+ border-top-right-radius: 1rem;
+ text-align: right;
+}
+
+
+.nav .non-btn {
+ font-weight: bold;
+}
+
+.nav .navp {
+ text-align: right;
+}
+
+.nav .link {
+ color: white;
+}
+
+.nav .active-link {
+ font-weight: bold;
+ color: #C1E492;
+}
+
+.nav .bn {
+ font-weight: bold;
+ text-align: left;
+ padding-top: 1rem;
+}
+
+/*header*/
+.hero {
+ padding: 2rem;
+ padding-top: 5rem;
+}
+
+.hero .hero-img {
+
+ max-width: 350px;
+ display: block;
+ margin: auto;
+}
+
+.hero .hero-heading {
+ text-align: center;
+ font-size: 2rem;
+ color: var(--gray-color);
+ padding-top: 1rem;
+}
+
+
+/*section*/
+
+.section {
+ padding: 2rem;
+}
+
+.section h1 {
+ text-align: left;
+}
+.white{
+ background-color:var(--white) ;
+}
+.off-white {
+ background-color: var(--off-white);
+}
+
+.footer {
+ background-color: var(--primary-color);
+ padding: 2rem 1rem;
+ text-align: center;
+ color: white;
+ border-top-right-radius: 1rem;
+}
+
+.footer .link {
+ color: white;
+}
+
+.footer .footer-header {
+ font-weight:600;
+ font-size: large;
+}
+
+.footer ul {
+ padding-inline-start: 0px;
+ font-weight: 500;
+}
+
+
+
+
+/*Design image*/
+* {
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+ font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+ float: left;
+ width: 25%;
+ padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+ opacity: 0.8;
+ cursor: pointer;
+}
+
+.column img:hover {
+ opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/* The expanding image container */
+.container {
+ position: relative;
+ display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+ position: absolute;
+ bottom: 15px;
+ left: 15px;
+ color: white;
+ font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+ position: absolute;
+ top: 10px;
+ right: 15px;
+ color: white;
+ font-size: 35px;
+ cursor: pointer;
+}
+
+
